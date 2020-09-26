@@ -13,7 +13,7 @@ docker ps
 #-a :显示所有的容器，包括未运行的。
 #-l :显示最近创建的容器。
 
-# 将需要的文件拷贝进docker中的wzh文件夹
+# 将需要的文件拷贝进docker中的个人文件夹中
 docker cp /public/home/<yourPersonalPath>/ <yourContainerID>:/<yourPersonalPath>/
 
 # 进入容器内部 获得管理员权限
