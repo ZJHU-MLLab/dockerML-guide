@@ -1,5 +1,5 @@
 ```bash
-# 将宿主机的文件拷贝到显卡机
+# 将跳板机的文件拷贝到显卡机
 SFTP把文件发到跳板机的/home/<yourPersonalPath>
 在跳板机 /home/<yourPersonalPath> 路径下运行cp filename.py /public/home/<yourPersonalPath>
 可以在显卡机的 /public/home/<yourPersonalPath> 找到文件
